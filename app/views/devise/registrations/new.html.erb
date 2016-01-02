@@ -8,8 +8,8 @@
     <%= f.email_field :email, autofocus: true, class: "form-control" %>
   </div>
 
-  <div class="field">
-    <%= f.label :password %>
+  <div class="field" "form group">
+    <%= f.label :password, class: "form-control" %>
     <% if @minimum_password_length %>
     <em>(<%= @minimum_password_length %> characters minimum)</em>
     <% end %><br />
